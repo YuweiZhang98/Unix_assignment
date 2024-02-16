@@ -3,21 +3,23 @@
 ### Attributes of fang_et_al_genotypes.txt
 ```
 $ ls -lh fang_et_al_genotypes.txt
+$ du -h fang_et_al_genotypes.txt
 $ wc -l fang_et_al_genotypes.txt
 $ awk '{print NF; exit}' fang_et_al_genotypes.txt
 ```
 By inspecting this file I learned that:
-1. File Size: 11 MB
+1. File Size: 11 MB (ls -lh result), 6.7 MB (du -h result)
 2. Number of Lines: 2783
 3. Number of Columns: 986
 ### Attributes of snp_position.txt
 ```
 $ ls -lh snp_position.txt
+$ du -h snp_position.txt
 $ wc -l snp_position.txt
 $ awk '{print NF; exit}' snp_position.txt
 ```
 By inspecting this file I learned that:
-1. File Size: 81 KB
+1. File Size: 81 KB (ls -lh result), 49 K (du -h result)
 2. Number of Lines: 984
 3. Number of Columns: 15
 
